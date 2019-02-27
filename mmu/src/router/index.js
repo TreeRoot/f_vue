@@ -5,11 +5,12 @@ import layouts from '@/components/layouts'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'layouts',
-      component: layouts
-    }
-  ]
+	routes: [
+		{
+		  path: '/',
+		  name: 'layouts',
+		  component: layouts
+		}
+	]
+	
 })
